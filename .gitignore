@@ -49,3 +49,9 @@ Temporary Items
 bin/ASPMVCIdentityDemo.dll.config
 *.pdb
 *.pdb
+*.pdb
+bin/ASPMVCIdentityDemo.dll
+*.dll
+obj/Debug/ASPMVCIdentityDemo.pdb
+*.pdb
+*.dll

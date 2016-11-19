@@ -14,6 +14,9 @@ namespace ASPMVCIdentityDemo.Controllers
         public ActionResult Index()
         {
             //Accessing custom claim data
+            var claimsIdentity = CurrentUser.Name;
+            ViewBag.country = CurrentUser.Country;
+            ViewBag.email = CurrentUser.Email;
             return View();
         }
     }

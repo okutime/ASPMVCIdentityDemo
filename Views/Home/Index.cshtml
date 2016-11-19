@@ -1,4 +1,4 @@
-﻿@using ASPMVCIdentityDemo.App_Start;
+﻿
 @{
     ViewBag.Title = "Index";
 }
@@ -8,5 +8,5 @@
 <p>
     <a href="@Url.Action("logout", "auth")">Log Out</a>
 </p>
-<p>Country: @CurrentUser.country</p>
+<p>Country: @ViewBag.country</p>
 <p>Email Address: @ViewBag.email</p>
