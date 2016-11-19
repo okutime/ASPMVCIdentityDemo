@@ -1,0 +1,12 @@
+﻿@using ASPMVCIdentityDemo.App_Start;
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Home</h2>
+<p>Hi @User.Identity.Name !</p>
+<p>
+    <a href="@Url.Action("logout", "auth")">Log Out</a>
+</p>
+<p>Country: @CurrentUser.country</p>
+<p>Email Address: @ViewBag.email</p>
